@@ -15,3 +15,4 @@ print("arealet til objektet er:" + str(areal))
 omkrets = 2*bredde + 2*høyde
 print("Omkretsen er:" + str(omkrets))
 
+#areal av trekant
