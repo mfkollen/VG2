@@ -16,3 +16,8 @@ omkrets = 2*bredde + 2*høyde
 print("Omkretsen er:" + str(omkrets))
 
 #areal av trekant
+
+grunnlinje = int(input("Skriv inn grunnlinje"))
+høyde = int(input("Skriv inn høyde"))
+grunnlinje*høyde/2=areal
+print("arealet er:"+ str (areal))
