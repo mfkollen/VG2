@@ -1,6 +1,7 @@
 Tall1 = 0
-Tall1 = int(input("Gi meg et tall"))
 Tall2 = 0
+Tall1 = int(input("Gi meg et tall"))
+
 Tall2 = int(input("Gi meg et tall til"))
 sum = 0
 sum = int(Tall1) * int(Tall2)
