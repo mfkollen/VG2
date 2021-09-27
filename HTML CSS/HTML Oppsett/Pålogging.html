@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        li {
+          display: inline;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a href="Pålogging.html">Logg inn</a></li>
+          <li><a href="Registrering.html">Registrering</a></li>
+          <li><a href="OmOss.html">Om oss</a></li>
+          <li><a href="Hjem.html">Hjem</a></li>
+        </ul>
+        
+
+    
+
+
+
+</form>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS 3.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <h1>Logg inn</h1>
+    
+</header>
+
+    
+</body>
+</html>
+
+
+<p>
+
+
+    <h2>HTML Forms</h2>
+<form action="/action_page.php">
+    <label for="fname">Brukernavn eller Epost:</label><br>
+    <input type="text" id="fname" name="fname" value="OlaOlsen"><br>
+    <label for="lname">Passord:</label><br>
+    <input type="password" value="passord" id="myInput"><br><br>
+    <input type="checkbox" onclick="myFunction()">Hvis passord<br>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    
+    <input type="submit" value="Logg inn">
+
+    
+</p>
