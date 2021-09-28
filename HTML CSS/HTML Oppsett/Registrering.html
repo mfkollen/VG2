@@ -58,12 +58,29 @@
 <form action="/action_page.php">
     <label for="fname">Brukernavn eller Epost:</label><br>
     <input type="text" id="fname" name="fname" value="OlaOlsen"><br>
-    <label for="lname">Passord:</label><br>
+    <label for="password">Passord:</label><br>
     <input type="password" value="passord" id="myInput"><br>
-    <label for="fname">Gjenta passord:</label><br>
-    <input type="password" value="passord" id="myInput"><br>
+    <label for="passord">Gjenta passord:</label><br>
     
-    <input type="submit" value="Logg inn">
+    <input type="password" value="passord"  id="myInput"><br><br>
+    <input type="checkbox" onclick="myFunction()">Hvis passord<br>
+    
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+          
+          <input type="submit" value="Logg inn">
+      
+          
+      </p>
 
     
     

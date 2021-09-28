@@ -97,9 +97,14 @@ ul {
   float: right;
 }
 
+li {
+   display: inline;
+}
+
 li a {
   display: block;
   padding: 10px;
   background-color:green;
   float: right;
   }
+
