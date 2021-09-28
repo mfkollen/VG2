@@ -1,0 +1,20 @@
+h1{
+
+color: cyan;
+text-align: center;
+size: 30px;
+}
+
+p{
+
+    float: left;
+    color: fuchsia;
+
+    
+}
+
+img{
+
+    height: 650px;
+    width: 600px;
+}
