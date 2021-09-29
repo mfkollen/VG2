@@ -18,3 +18,16 @@ img{
     height: 650px;
     width: 600px;
 }
+
+
+
+ul{
+float: right;
+list-style-type: none;
+padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
