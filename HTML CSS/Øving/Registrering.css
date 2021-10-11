@@ -2,9 +2,37 @@ ul{
     float: right;
     list-style-type: none;
     padding: 10px;
+    background-color: darkcyan;
     }
     
     li {
         display: inline;
         padding: 10px;
     }
+
+    header {
+
+        background-color: cyan;
+        text-align: left;
+        size: 30px;
+        margin: 0px;
+        padding: 0px;
+        height: 100px;
+        width: 100%;
+        margin-top: 0px;
+        }
+
+
+
+
+h1{
+    margin-top: 0px;
+}
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}    
